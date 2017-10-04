@@ -1,14 +1,14 @@
 
 #Part I
 
-# def draw_stars(x):
-#     star = ""
-#     for i in range(0,len(x)): # i runs through the values from 0 to the length of x
-#         temp = x[i]
-#         for j in range(0,temp): # j runs through the values from 0 to each temp value
-#             star+= "*"          # Then the star = star + * into the new container "star"
-#         print star
-# draw_stars([4,6,1,3,5,7,25])
+def draw_stars(x):
+    star = ""
+    for i in range(0,len(x)): # i runs through the values from 0 to the length of x
+        temp = x[i]
+        for j in range(0,temp): # j runs through the values from 0 to each temp value
+            star+= "*"          # Then the star = star + * into the new container "star"
+        print star
+draw_stars([4,6,1,3,5,7,25])
 
 #Part II
 
